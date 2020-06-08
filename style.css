@@ -1,20 +1,21 @@
 body{
+    margin:0px;
     background-color: rgb(78,29,4);
 }
 #header{
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: darkslategray;
     font-size: 25px;
     text-align: center;
-    padding-top:15px;
-    padding-bottom:15px;
 }
 #header h1{
     color: rgb(173,106,53);
 }
 #library{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 50px;
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 100px;
 }
 .book{
     background-color: rgb(239,93,88);
@@ -23,4 +24,10 @@ body{
 }
 .book p{
     padding-left: 30px;
+}
+.remove{
+    align-self: right;
+}
+.toggle{
+    align-self: right;
 }
